@@ -20,6 +20,11 @@
   border: none;
 }
 
+.logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  margin-top: 80px;
+}
+
 .page-section {
   width: 100%;
   min-height: 800px;
@@ -72,10 +77,14 @@ form {
 }
 
 .page-section#top {
-  background: url("../img/Kelowna1.jpg") bottom center no-repeat;
+  background: url("../img/Kelowna1.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: none;
   padding: 0;
   margin; 0;
+  height: 100vh;
 }
 
 .page-section#about {
