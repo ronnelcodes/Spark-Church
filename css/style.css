@@ -76,6 +76,10 @@ form {
   color: #fff;
 }
 
+.about, .school, .intern {
+  background-color: rgba(0,0,0,.5)
+}
+
 .card-title {
   text-align: center;
 }
@@ -109,22 +113,36 @@ form {
 
 .page-section#giving {
   background: url("../img/generosity.jpg") top center no-repeat;
-  background-size: 2000px 1300px;
+  background-size: cover;
+}
+
+.bc-logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  width: 700px;
+  height: 250px;
 }
 
 .page-section#school {
-  background: url("https://i.imgur.com/8DAej0k.jpg") no-repeat;
-  background-size: 2000px 1200px;
+  background: url("../img/Bible-College.jpg") no-repeat;
+  background-size: cover;
+}
+
+.sci-logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  width: 700px;
+  height: 250px;
 }
 
 .page-section#intern {
-  background: url("https://i.imgur.com/ieOEden.jpg") top center no-repeat;
-  background-size: 2000px 1200px;
+  background: url("../img/Interns.jpg") top center no-repeat;
+  background-size: cover;
+  filter: contrast(40%) blur(15%);
 }
 
 .page-section#contact {
-  background: url("https://i.imgur.com/0Y80rL3.jpg") top center no-repeat;
+  background: url("../img/Kelowna2.jpg") top center no-repeat;
   background-size: 2000px 1200px;
+  background-color: #464545;
 }
 
 .footer {
