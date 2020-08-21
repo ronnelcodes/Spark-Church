@@ -126,13 +126,45 @@ form {
   background-size: cover;
 }
 
+.school-btn, input[type=submit] {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  background: 0 0;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 25px;
+  -webkit-transition: all .4s ease 0s;
+  -moz-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .sci-logo{
   filter: drop-shadow(5px 5px 5px #222); 
   width: 700px;
   height: 250px;
 }
 
-.page-section#intern {
+.page-section#interns {
   background: url("../img/Interns.jpg") top center no-repeat;
   background-size: cover;
   filter: contrast(40%) blur(15%);
