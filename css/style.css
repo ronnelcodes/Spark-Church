@@ -1,3 +1,181 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  //background: #222;
+  z-index: 10;
+}
+
+.header .navbar-brand {
+  font-weight: 900;
+}
+
+.header .navbar {
+  margin: 0;
+  border: none;
+}
+
+.logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  margin-top: 80px;
+}
+
+.page-section {
+  width: 100%;
+  min-height: 800px;
+  padding: 50px 0;
+}
+
+.page-section h1 {
+  font-size: 4em;
+  margin: 50px 0;
+}
+
+.page-section h1 span {
+  font-weight: 200;
+}
+
+.page-section h2 {
+  font-size: 3em;
+  font-weight: 900;
+  color: #fff;
+  margin: 0 0 30px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+  font-size: 1.2em;
+  font-weight: 200;
+  margin: 0 25% 20px 0;
+}
+
+.page-section h3 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-section h4 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-section p.lead {
+  font-size: 1.8em;
+}
+
+.page-section p.caption {
+  color: #fff;
+  padding: 20px;
+  margin: auto;
+  text-shadow: 1px 1px 1px #000;
+}
+
+form {
+  color: #fff;
+}
+
+.about, .school, .intern {
+  background-color: rgba(0,0,0,.5)
+}
+
+.card-title {
+  text-align: center;
+}
+
+.page-section#top {
+  background: url("../img/Kelowna1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: none;
+  padding: 0;
+  margin; 0;
+  height: 100vh;
+}
+
+.page-section#about {
+  background: url("../img/Stage.jpg") bottom center no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.page-section#ministries {
+  background: url("../img/ministry3.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+
+.page-section#giving {
+  background: url("../img/generosity.jpg") top center no-repeat;
+  background-size: cover;
+}
+
+.bc-logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  width: 700px;
+  height: 250px;
+}
+
+.page-section#school {
+  background: url("../img/Bible-College.jpg") no-repeat;
+  background-size: cover;
+}
+
+.sci-logo{
+  filter: drop-shadow(5px 5px 5px #222); 
+  width: 700px;
+  height: 250px;
+}
+
+.page-section#intern {
+  background: url("../img/Interns.jpg") top center no-repeat;
+  background-size: cover;
+  filter: contrast(40%) blur(15%);
+}
+
+.page-section#contact {
+  background: url("../img/Kelowna2.jpg") top center no-repeat;
+  background-size: 2000px 1200px;
+  background-color: #464545;
+}
+
+.footer {
+  font-size: 6px;
+}
+
+@media (min-width: 768px) {
+  .header .navbar-brand {
+    padding-left: 0;
+  }
+  .navbar-nav {
+    float: right;
+  }
+}
+@media (max-width: 480px) {
+  .page-section h1 {
+    font-size: 3em;
+  }
+  .page-section h2 {
+    font-size: 2em;
+  }
+  .page-section p {
+    font-size: 1em;
+    margin: 0 0 20px;
+  }
+}
+=======
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 * {
@@ -200,3 +378,4 @@ form {
     margin: 0 0 20px;
   }
 }
+>>>>>>> 632ff3676bb94328c543e362a43fd61ea64daffb
