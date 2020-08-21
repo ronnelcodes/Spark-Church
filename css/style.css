@@ -60,6 +60,12 @@
   text-align: center;
 }
 
+.page-section h4 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .page-section p.lead {
   font-size: 1.8em;
 }
